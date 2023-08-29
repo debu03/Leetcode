@@ -7,6 +7,3 @@ class Solution:
             if diff in hashMap: 
                 return [hashMap[diff], index] #return index of hashmap
             hashMap[num] = index #add index to hashmap
-
-
-            #simplest solution in python time and space complexity O(n)
